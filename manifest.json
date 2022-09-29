@@ -1,0 +1,10 @@
+{
+    "id": "linkblocks",
+    "name": "Link Blocks",
+    "version": "1.0.0",
+    "minAppVersion": "0.11.13",
+    "description": "Link blocks!",
+    "author": "Dylan Elliott",
+    "authorUrl": "https://github.com/dyldog",
+    "isDesktopOnly": false
+}
