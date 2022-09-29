@@ -131,7 +131,7 @@ export default class LinkBlocksPlugin extends Plugin {
             if (row.trim().length == 0) {
               box.createEl("div", { cls: "break" });
             } else {
-              var parts = row.split(":")
+              var parts = row.split("|")
 
               if (parts.length == 1) {
                 box.createEl("a", { 
