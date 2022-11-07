@@ -14,6 +14,8 @@ Sections are used under each version as follows:
 
 ## [Unreleased]
 
+- First public release
+
 ## [1.0.3] - 2022-11-07
 
 ### Added
