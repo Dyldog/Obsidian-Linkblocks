@@ -1,0 +1,36 @@
+{
+  "hooks": {
+    "before:init": [
+        "npm run prettier",
+        "npm run lint"
+    ],
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  },
+  "git": {
+      "commitMessage": "Release v${version}",
+      "requireBranch": "master",
+      "tagName": "${version}",
+      "tagAnnotation": "Release v${version}"
+  },
+  "npm": {
+      "publish": false
+  },
+  "github": {
+      "assets": [
+          "main.js",
+          "manifest.json",
+          "styles.css"
+      ],
+      "release": true,
+      "releaseName": "v${version}"
+  },
+  "plugins": {
+    "@release-it/bumper": {
+        "out": "manifest.json"
+    },
+    "@release-it/keep-a-changelog": {
+        "addVersionUrl": "true",
+        "addUnreleased": "true"
+    }
+  }
+}
