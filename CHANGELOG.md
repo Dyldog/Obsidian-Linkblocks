@@ -14,6 +14,8 @@ Sections are used under each version as follows:
 
 ## [Unreleased]
 
+## [1.0.4] - 2022-11-07
+
 - First public release
 
 ## [1.0.3] - 2022-11-07
@@ -27,5 +29,6 @@ Sections are used under each version as follows:
 ### Added
 
 - Initial Release
-[unreleased]: https://github.com/Dyldog/Obsidian-Linkblocks/compare/1.0.3...HEAD
+[unreleased]: https://github.com/Dyldog/Obsidian-Linkblocks/compare/1.0.4...HEAD
+[1.0.4]: https://github.com/Dyldog/Obsidian-Linkblocks/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/Dyldog/Obsidian-Linkblocks/compare/1.0.2...1.0.3
