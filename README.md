@@ -2,6 +2,8 @@
 
 Linkblocks is a plugin for Obsidian that lets you create big link buttons out of simple code blocks.
 
+**blocks.css taken from the wonderful [Linus Lee](https://github.com/thesephist/blocks.css)**
+
 ## Example
 
 This code block:
