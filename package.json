@@ -1,6 +1,6 @@
 {
     "name": "linkblocks",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Link blocks!",
     "main": "main.js",
     "scripts": {
